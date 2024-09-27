@@ -62,9 +62,8 @@
 
 .navbar ul li a.active, .navbar-scrolled ul li a.active {
     font-weight: 600;
-    background-color: var(--border);
-    border-bottom: 4px solid var(--header-bg);
-    color: black;
+    border-bottom: 4px solid bisque;
+    color: white;
 }
 
 .navbar .menu-bar, .navbar-scrolled .menu-bar {

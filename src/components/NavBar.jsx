@@ -35,25 +35,25 @@ function NavBar() {
           <NavLink to={'/'}>Home</NavLink>
         </li>
         <li onClick={handleMenuBar}>
-          <NavLink to={'/about-us'}>About Us</NavLink>
+          <NavLink >About Us</NavLink>
         </li>
         <li onClick={handleMenuBar}>
-          <NavLink to={'/courses'}>Courses</NavLink>
+          <NavLink >Courses</NavLink>
         </li>
         <li onClick={handleMenuBar}>
-          <NavLink to={'/academics'}>Academics</NavLink>
+          <NavLink >Academics</NavLink>
         </li>
         <li onClick={handleMenuBar}>
-          <NavLink to={'/placements'}>Placements</NavLink>
+          <NavLink >Placements</NavLink>
         </li>
         <li onClick={handleMenuBar}>
-          <NavLink to={'/research'}>Research</NavLink>
+          <NavLink >Research</NavLink>
         </li>
         <li className='login' onClick={handleMenuBar}>
-          <NavLink to={'/login'}>Login</NavLink>
+          <NavLink >Login</NavLink>
         </li>
         <li className='admission' onClick={handleMenuBar}>
-          <NavLink to={'/admission'}>Admission</NavLink>
+          <NavLink >Admission</NavLink>
         </li>
       </ul>
       <FontAwesomeIcon icon={faBars} className='menu-bar' onClick={handleMenuBar}/>
